@@ -1,9 +1,11 @@
 body {
     background-color: var(--background-color);
+    font-family: Poppins, Montserrat;
+    color: white;
 }
 
 :root {
-    --background-color: #040405;
+    --background-color: #0B0B0D;
     --nav-background: #08080a;
     --border: #363636;
 }
