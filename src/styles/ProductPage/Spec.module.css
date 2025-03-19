@@ -1,0 +1,41 @@
+.spec {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50px;
+    height: 50px;
+
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    filter: blur(0.8px);
+}
+
+.spec span {
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.selected {
+    background-color: #fff;
+    filter: blur(0);
+    color: #000;
+}
+
+#selector {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 10px;
+    width: 10px;
+
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #fff;
+
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+}

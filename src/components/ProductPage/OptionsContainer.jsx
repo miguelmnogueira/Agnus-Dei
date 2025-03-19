@@ -13,7 +13,7 @@ const OptionsContainer = () => {
                 <button id={s.minus}>+</button>
             </div>
             <button id={s.addToCartButton}>
-                Add to <MdOutlineShoppingCart size={"20px"} />
+                Add to <MdOutlineShoppingCart size={"20px"} color="#000" />
             </button>
         </div>
     );
