@@ -3,8 +3,14 @@ body {
     color: white;
 }
 
+html,
+body,
+#root {
+    height: 100%;
+}
+
 :root {
-    --background-color: #0B0B0D;
+    --background-color: #040405;
     --nav-background: #08080a;
-    --border: #363636;
+    --border: #3636367e;
 }

@@ -1,0 +1,65 @@
+.product {
+    height: 150px;
+    background-color: var(--nav-background);
+    border-radius: 10px;
+    display: flex;
+    gap: 7px;
+    max-width: 100%;
+}
+
+.productNamePrice {
+    min-width: 0;
+    max-width: 100%;
+    flex: 1 1 auto;
+    margin: 15px 0;
+}
+
+.productInfo {
+    max-width: 100% !important;
+    min-width: 0;
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 1;
+}
+
+.product h5 {
+    font-size: 18px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 90%;
+    min-width: 0;
+}
+
+.product img {
+    align-self: center;
+    height: 120px;
+    width: auto;
+}
+
+.productNamePrice p {
+    font-size: 11px;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+.productNamePrice p span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.productSpecs {
+    display: flex;
+    gap: 5px;
+}
+
+.productSpecsQtd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+    max-width: 95%;
+}

@@ -1,23 +1,25 @@
-button{
+button {
     width: 140px;
     height: 50px;
     border-radius: 70px;
-    
+
     color: black;
     font-family: Montserrat;
     font-weight: 600;
     font-size: 16px;
 }
 
-#pricesContainer{
+#pricesContainer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
 
-#cartNav{
-    height: 130px;
+#cartNav {
+    box-shadow: 0px -2px 25px 0px rgba(0, 0, 0, 0.75);
+    border-top: 1px solid var(--border);
+    height: 110px;
     width: 100%;
 
     position: fixed;
@@ -27,17 +29,21 @@ button{
     justify-content: space-around;
     align-items: center;
     font-family: Montserrat;
-    background: linear-gradient(to top, #0B0B0D 60%, rgba(3,3,3,0.2497373949579832) 100%);
+    background: linear-gradient(
+        to top,
+        #0b0b0d 60%,
+        rgba(3, 3, 3, 0.2497373949579832) 100%
+    );
     backdrop-filter: blur(10px);
 
     border-radius: 40px 40px 0 0;
 }
 
-#subtotal{
+#subtotal {
     font-size: 13px;
     font-weight: 400;
 }
-#total{
+#total {
     font-size: 20px;
     font-weight: 450;
 }

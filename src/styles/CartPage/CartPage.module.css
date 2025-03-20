@@ -1,0 +1,19 @@
+#cartPage {
+    margin: 0 10px;
+    padding-top: 30px;
+    overflow-x: hidden;
+}
+h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#productContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 120px;
+}
