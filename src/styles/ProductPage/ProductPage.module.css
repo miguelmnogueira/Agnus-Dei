@@ -5,7 +5,6 @@
     align-items: center;
     gap: 30px;
     width: 100%;
-    margin-bottom: 20px;
 }
 
 #addToCartButton {
@@ -103,4 +102,10 @@
 .amountContainerCart {
     width: auto;
     white-space: nowrap;
+}
+
+#bottomOptions {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }

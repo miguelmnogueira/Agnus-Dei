@@ -1,20 +1,23 @@
 import React from "react";
 import s from "../styles/nav.module.css";
+import { useState } from "react";
 
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { IoSearch } from "react-icons/io5";
+import { Link } from "react-router";
+import { useLocation } from "react-router";
 
 const nav = () => {
     return (
         <nav>
-            <button className={`${s.cart} ${s.btn}`}>
+            <Link to={"/cart"} className={`${s.cart} ${s.btn}`}>
                 <MdOutlineShoppingCart fontSize="25px" color="black" />
                 <span className={s.cartNumber}>1</span>
-            </button>
+            </Link>
             <a className={s.logo}></a>
-            <button className={`${s.search} ${s.btn}`}>
+            <Link className={`${s.search} ${s.btn}`}>
                 <IoSearch fontSize="25px" color="white" />
-            </button>
+            </Link>
         </nav>
     );
 };

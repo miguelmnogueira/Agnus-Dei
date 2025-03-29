@@ -1,0 +1,61 @@
+h5 {
+    font-family: Poppins;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 8px;
+    line-height: 27px;
+}
+.productContainer {
+    color: white;
+    text-decoration: none;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background-color: #08080a;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    gap: 5px;
+    font-family: Montserrat;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.pricesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: auto;
+    line-height: 16px;
+}
+.price {
+    font-weight: 600;
+    font-size: 18px;
+}
+.priceDiscounted {
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 13px;
+}
+.cardInfo {
+    font-weight: 300;
+    font-size: 12px;
+}
+.paymentContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.imgContainer {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    height: 230px;
+}

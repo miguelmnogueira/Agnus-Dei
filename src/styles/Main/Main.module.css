@@ -1,0 +1,9 @@
+main {
+    margin-top: 60px;
+    padding-bottom: 50px;
+}
+#categoryContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
